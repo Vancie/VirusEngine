@@ -1,6 +1,14 @@
-#include "Virus/Application.hpp"
+#include <Virus.hpp>
 
-int main() {
-  Virus::Application app;
-  app.Run();
+class Sandbox : public Virus::Application
+{
+  public:
+    Sandbox () {}
+    ~Sandbox () {}
+};
+
+Virus::Application *
+Virus::CreateApplication ()
+{
+    return new Sandbox ();
 }

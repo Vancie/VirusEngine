@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/Users/natevance/developer/GameEngine/Debug/Sandbox",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/natevance/developer/GameEngine/Virus/src -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -std=gnu++17 -o CMakeFiles/MyApp.dir/src/Sandbox.cpp.o -c /Users/natevance/developer/GameEngine/Sandbox/src/Sandbox.cpp",
+  "file": "/Users/natevance/developer/GameEngine/Sandbox/src/Sandbox.cpp"
+},
+{
+  "directory": "/Users/natevance/developer/GameEngine/Debug/Virus",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DVirus_EXPORTS -I/Users/natevance/developer/GameEngine/Virus/src -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fPIC -std=gnu++17 -o CMakeFiles/Virus.dir/src/Virus/Application.cpp.o -c /Users/natevance/developer/GameEngine/Virus/src/Virus/Application.cpp",
+  "file": "/Users/natevance/developer/GameEngine/Virus/src/Virus/Application.cpp"
+}
+]
